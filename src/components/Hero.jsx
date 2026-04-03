@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 
 const stats = [
   { label: 'Products migrated', value: '60K+', unit: 'records' },
-  { label: 'ML model accuracy', value: '96%', unit: 'team project' },
   { label: 'Data accuracy lift', value: '+20%', unit: 'via validation' },
+  { label: 'REST API endpoints', value: '15+', unit: 'Anime Compass' },
 ]
 
 export default function Hero() {

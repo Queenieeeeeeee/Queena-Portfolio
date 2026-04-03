@@ -3,9 +3,10 @@ export const projects = [
     id: 1,
     name: "ERP Cloud Migration",
     metric: "+20% data accuracy",
-    desc: "Led Epicor Prophet 21 on-prem to cloud migration with zero downtime. SQL validation, fuzzy-match deduplication, and pricing data correction.",
+    desc: "Led Epicor Prophet 21 on-prem to cloud migration. Compared and validated 60K+ records, rebuilt price library, and cleaned customer/vendor addresses. Improved master data accuracy by 20%.",
     tags: ["Epicor P21", "SQL", "ETL"],
     link: null,
+    hasDiagram: true,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const projects = [
     desc: "Built end-to-end SSIS pipelines and NopCommerce e-commerce platform from scratch. 483 attributes, cross-platform WordPress integration.",
     tags: ["SSIS", "NopCommerce", "SQL Server"],
     link: null,
+    hasDiagram: true,
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const projects = [
     desc: "Team capstone project. Built Tableau dashboards for real-time KPI monitoring and operational insights. Team developed NLP classifier achieving 96% accuracy.",
     tags: ["Tableau", "KPI", "Team project"],
     link: null,
+    hasDiagram: true,
   },
   {
     id: 5,
@@ -125,3 +128,30 @@ export const contact = {
   linkedin: "https://www.linkedin.com/in/szu-man-ho",
   github: "https://github.com/Queenieeeeeeee",
 }
+
+export const certifications = [
+  {
+    name: "Tableau Desktop Specialist",
+    issuer: "Tableau",
+    desc: "Dashboard development and data visualization",
+    link: "https://www.credly.com/badges/a200bc17-a9a0-4936-8e13-89e897470221/linked_in_profile",
+  },
+  {
+    name: "HackerRank SQL (Advanced)",
+    issuer: "HackerRank",
+    desc: "Complex query optimization",
+    link: "https://www.hackerrank.com/certificates/iframe/d322503332b3",
+  },
+  {
+    name: "Plytix PIM Certification",
+    issuer: "Plytix",
+    desc: "Product information management",
+    link: null,
+  },
+  {
+    name: "Google Analytics Certification",
+    issuer: "Google",
+    desc: "Web analytics and performance measurement",
+    link: null,
+  },
+]
